@@ -14,6 +14,7 @@
 		D088BEF41D79398C001AF03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D088BEF21D79398C001AF03A /* Main.storyboard */; };
 		D088BEFF1D79398C001AF03A /* TestProjektTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D088BEFE1D79398C001AF03A /* TestProjektTests.m */; };
 		D088BF0A1D79398C001AF03A /* TestProjektUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D088BF091D79398C001AF03A /* TestProjektUITests.m */; };
+		D088BF181D793F7E001AF03A /* NewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D088BF171D793F7E001AF03A /* NewStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D088BF051D79398C001AF03A /* TestProjektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088BF091D79398C001AF03A /* TestProjektUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjektUITests.m; sourceTree = "<group>"; };
 		D088BF0B1D79398C001AF03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D088BF171D793F7E001AF03A /* NewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D088BEE61D79398C001AF03A /* TestProjekt */ = {
 			isa = PBXGroup;
 			children = (
+				D088BF171D793F7E001AF03A /* NewStoryboard.storyboard */,
 				D088BEE71D79398C001AF03A /* AppDelegate.h */,
 				D088BEE81D79398C001AF03A /* AppDelegate.m */,
 				D088BEED1D79398C001AF03A /* ViewController.h */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D088BEF11D79398C001AF03A /* Assets.xcassets in Resources */,
+				D088BF181D793F7E001AF03A /* NewStoryboard.storyboard in Resources */,
 				D088BEF41D79398C001AF03A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
